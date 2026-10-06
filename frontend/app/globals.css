@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Fonte do projeto */
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Tema escuro fixo, igual ao protótipo */
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: #161624;
+  color: #ffffff;
+}
+
+/* Opções dos selects no tema escuro */
+select option {
+  background: #252532;
+  color: #ffffff;
+}
