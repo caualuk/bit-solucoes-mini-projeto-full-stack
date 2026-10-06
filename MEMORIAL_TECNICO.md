@@ -64,7 +64,7 @@ O PostgreSQL foi escolhido por ser um banco relacional robusto e gratuito, além
 
 O modelo do sistema também combina bem com um banco relacional: um usuário pode ter várias solicitações, e as solicitações possuem seus próprios dados e relacionamentos.
 
-Outro ponto importante foi poder usar PostgreSQL tanto localmente quanto através do Supabase no deploy.
+Outro ponto importante foi poder usar PostgreSQL tanto instalado localmente quanto através do Supabase.
 
 # Spring Security + JWT
 

@@ -227,34 +227,6 @@ npm test
 
 Atualmente existem **9 testes** no frontend.
 
-# Deploy
-
-Para publicar o projeto, configure as variáveis de ambiente no serviço escolhido.
-
-# Backend
-
-Defina `CORS_ALLOWED_ORIGINS` com o endereço do frontend publicado:
-
-```env
-CORS_ALLOWED_ORIGINS=https://meu-front.com
-```
-
-Se também quiser permitir o ambiente local:
-
-```env
-CORS_ALLOWED_ORIGINS=https://meu-front.com,http://localhost:3000
-```
-
-# Frontend
-
-Defina o endereço da API:
-
-```env
-NEXT_PUBLIC_API_URL=https://endereco-da-sua-api
-```
-
-Essa variável é utilizada durante o build. Portanto, se ela for alterada, é necessário gerar um novo build da aplicação.
-
 # Problemas comuns
 
 # `ExceptionInInitializerError` ao compilar

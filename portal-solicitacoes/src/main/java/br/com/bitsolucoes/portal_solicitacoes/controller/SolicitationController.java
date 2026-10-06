@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.data.web.PageableDefault;
 
 import java.time.LocalDateTime;
-import java.util.List;
 import java.util.UUID;
 
 @RestController
